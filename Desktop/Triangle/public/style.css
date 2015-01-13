@@ -1,0 +1,26 @@
+h1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: white;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  margin:15%;
+  font-size: 3.5em;
+}
+
+body {
+  background-color: turquoise;
+}
+
+.form-group {
+  color:white;
+}
+
+.btn {
+  float: right;
+  padding-right: 50px;
+  padding-left: 50px;
+}

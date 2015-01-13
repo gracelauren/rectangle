@@ -1,0 +1,11 @@
+<% if @a == "" ||  @b == "" || @c == "" %>
+<h2>Please fill 3 sides.</h2>
+<% else %>
+<h2><%= @a %>, <%= @b %>, and <%= @c %>?</h2>
+<h2>That's <%= @triangle_type %> triangle. </h2>
+<% end %>
+<form action='/form'>
+  <div class="form-group">
+    <button type="submit" class="btn btn-default">Back!</button>
+  </div>
+</form>
